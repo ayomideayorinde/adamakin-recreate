@@ -116,8 +116,8 @@ body {
         position: absolute;
         flex-direction: column;
         top: 110px;
-        width: 100%;
-        box-shadow: 0px 0px 1px 1px;
+        width: 95%;
+        box-shadow: 1px 1px;
     }
     .nav-bar button {
         display: none;
