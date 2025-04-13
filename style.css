@@ -82,6 +82,7 @@ body {
 .nav-bar a {
     text-decoration: none;
     color: black;
+    padding: 10px;
 }
 .nav-bar a:hover {
     color: rgb(0,75,3);
