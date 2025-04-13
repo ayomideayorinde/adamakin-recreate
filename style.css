@@ -102,13 +102,13 @@ body {
         display: block;
     }
     .nav-bar a {
-        color: rgb(0,75,3);
+        color: snow;
         padding: 10px;
     }
     .nav-bar a:hover {
-        color: snow;
+        color: rgb(0,75,3);
         padding: 10px;
-        background-color: rgb(0,75,3);
+        background-color: snow;
     }
     .links {
         display: none;
