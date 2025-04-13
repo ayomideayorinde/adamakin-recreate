@@ -89,6 +89,9 @@ body {
     .top-bar {
         padding: 5px 20px;
     }
+    .top-bar button {
+        font-size: 14px;
+    }
     .nav-bar {
         padding: 10px 20px;
     }
