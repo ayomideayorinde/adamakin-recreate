@@ -16,7 +16,7 @@ body {
     padding: 5px 50px;
 }
 .fa {
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px;
     background-color: snow;
     border-radius: 50%;
@@ -24,14 +24,6 @@ body {
     color: black;
     text-decoration: none;
     margin-left: 5px;
-}
-.search {
-    width: 0px;
-    color: white;
-    background-color: snow;
-    padding: 0px;
-    margin-left: 0px;
-    text-align: center;
 }
 .top-bar button {
     background-color: rgb(0,75,3);
