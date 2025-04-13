@@ -122,4 +122,8 @@ body {
     .nav-bar button {
         display: none;
     }
+    .nav-bar i {
+        font-size: 30px;
+        font-weight: lighter;
+    }
 }
