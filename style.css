@@ -100,6 +100,8 @@ body {
     }
     .nav-bar i {
         display: block;
+        font-size: 30px;
+        font-weight: lighter;
     }
     .nav-bar a {
         color: snow;
@@ -124,9 +126,5 @@ body {
     }
     .nav-bar button {
         display: none;
-    }
-    .nav-bar i {
-        font-size: 30px;
-        font-weight: lighter;
     }
 }
