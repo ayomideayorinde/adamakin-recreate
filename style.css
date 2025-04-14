@@ -333,8 +333,11 @@ button:hover {
         flex-direction: column;
         margin: 20px 20px 0px;
     }
+    .left-deed {
+        width: 100%;
+    }
     .left-deed img{
-        width: 300%;
+        width: 100%;
     }
     .right-deed {
         width: 100%;
