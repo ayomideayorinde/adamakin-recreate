@@ -274,3 +274,103 @@ button:hover {
         margin: 20px;
     }
 }
+
+/* Buying Property */
+.buying-property {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px 0px;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    color: snow;
+}
+.buying-property a {
+    padding: 10px;
+}
+@media only screen and (max-width: 500px) {
+    .buying-property {
+        padding: 50px;
+        text-align: center;
+    }
+    .buying-property button {
+        margin-top: 10px;
+    }
+}
+
+/* Deed of assignment */
+.deed-of-assignment {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 50px 0px;
+}
+.left-deed {
+    width: 30%;
+    margin-right: 50px;
+}
+.left-deed img {
+    width: 100%;
+    border-radius: 5px;
+}
+.right-deed {
+    width: 70%;
+}
+.fa-arrow-right {
+    background-color: rgb(0,75,3);
+    color: snow;
+}
+.fa-arrow-right:hover {
+    background-color: snow;
+    color: rgb(0,75,3);
+}
+.desc {
+    text-align: justify;
+}
+@media only screen and (max-width: 500px) {
+    .deed-of-assignment {
+        flex-direction: column;
+        margin: 20px 20px 0px;
+    }
+    .left-deed img{
+        width: 410px;
+    }
+    .right-deed {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .right-deed button {
+        margin-top: 10px;
+    }
+    
+}
+
+/* Madam Tinubu */
+.madam-efunporoye {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.left-madam {
+    width: 50%;
+}
+.right-madam {
+    width: 50%;
+    padding-left: 50px;
+}
+.right-madam img{
+    width: 100%;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 500px) {
+    .madam-efunporoye {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .left-madam, .right-madam {
+        width: 100%;
+        padding: 20px;
+    }
+    
+}
