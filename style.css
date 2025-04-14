@@ -148,6 +148,12 @@ body {
 .mySlide img{
     width: 100%;
 }
+@media only screen and (max-width: 500px) {
+    .mySlide img{
+        width: 100%;
+        height: 400px;
+    }
+}
 .text {
     position: absolute;
     top: 100px;
